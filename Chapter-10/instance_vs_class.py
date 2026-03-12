@@ -3,6 +3,11 @@
 class Employee:
     language = "Python"
     salary = 1200000
+    def __init__(self,name,salary,language):   # dunder method which is automatically called
+        self.name = name
+        self.salary = salary
+        self.language = language
+
     def getInfo(self): 
         print(f"The language is {self.language} and Salary is {self.salary} ")
     
@@ -14,10 +19,11 @@ class Employee:
     def msg():
         print("We did not pass any complete object")
     
-vivek = Employee()
-# vivek.getInfo() 
-Employee.getInfo(vivek) 
-vivek.greet()
-vivek.msg() 
+vivek = Employee("Vivek",1300000,"Java")
+print(vivek.name,vivek.salary,vivek.language)
+# # vivek.getInfo() 
+# Employee.getInfo(vivek) 
+# vivek.greet()
+# vivek.msg() 
 
-# ------------- Left Constructor -------------
+ 
