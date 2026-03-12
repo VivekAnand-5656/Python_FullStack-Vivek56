@@ -35,4 +35,4 @@ def goodMorning(name,ending="Wak-Up"):
 
 goodMorning("Vivek")
 goodMorning("Khushi","Go for Walk")
-# ------------ Left Recursion -------------
+ 
