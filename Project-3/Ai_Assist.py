@@ -31,7 +31,7 @@ def chatbot(user_input):
     else:
         return "Sorry, I don't know that yet."
 
-# main loop
+# --------- main loop
 while True:
     user = input("You: ")
     response = chatbot(user)
